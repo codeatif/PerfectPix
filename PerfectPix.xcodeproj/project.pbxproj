@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EC977813C8BCA24F6B8B4EA /* libPods-PerfectPix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5CF6D701ED2C33C2F530EF /* libPods-PerfectPix.a */; };
+		BE12063F1F68FD770060B213 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE12063E1F68FD770060B213 /* 7.jpg */; };
+		BE1206411F691C300060B213 /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1206401F691C300060B213 /* tick.png */; };
+		BE1206471F6932490060B213 /* lookup_amatorka.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1206421F6932490060B213 /* lookup_amatorka.png */; };
+		BE1206481F6932490060B213 /* lookup_miss_etikate.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1206431F6932490060B213 /* lookup_miss_etikate.png */; };
+		BE1206491F6932490060B213 /* lookup_soft_elegance_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1206441F6932490060B213 /* lookup_soft_elegance_1.png */; };
+		BE12064A1F6932490060B213 /* lookup_soft_elegance_2.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1206451F6932490060B213 /* lookup_soft_elegance_2.png */; };
+		BE12064B1F6932490060B213 /* lookup.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1206461F6932490060B213 /* lookup.png */; };
+		BE246DE81F5E823C005D378B /* libGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE246DE51F5E823C005D378B /* libGPUImage.a */; };
+		BE246DE91F5E823C005D378B /* libPods-PerfectPix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE246DE61F5E823C005D378B /* libPods-PerfectPix.a */; };
+		BE2591341F6BDED1008DAD2F /* ruler_bg.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE2591331F6BDED1008DAD2F /* ruler_bg.gif */; };
+		BE2591391F6BE90B008DAD2F /* BWSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2591361F6BE90B008DAD2F /* BWSegment.m */; };
+		BE25913A1F6BE90B008DAD2F /* BWSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2591381F6BE90B008DAD2F /* BWSegmentedControl.m */; };
+		BE2DAB151F5EA6B1008C72FE /* Messi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE2DAB141F5EA6B1008C72FE /* Messi.jpg */; };
+		BE73F6591F67A6E4004246F6 /* flash-off.png in Resources */ = {isa = PBXBuildFile; fileRef = BE73F6541F67A6E4004246F6 /* flash-off.png */; };
+		BE73F65A1F67A6E4004246F6 /* flash-on.png in Resources */ = {isa = PBXBuildFile; fileRef = BE73F6551F67A6E4004246F6 /* flash-on.png */; };
+		BE73F65B1F67A6E4004246F6 /* gallery.png in Resources */ = {isa = PBXBuildFile; fileRef = BE73F6561F67A6E4004246F6 /* gallery.png */; };
+		BE73F65C1F67A6E4004246F6 /* shoot.png in Resources */ = {isa = PBXBuildFile; fileRef = BE73F6571F67A6E4004246F6 /* shoot.png */; };
+		BE73F65F1F67AAE2004246F6 /* switch_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = BE73F65E1F67AAE2004246F6 /* switch_camera.png */; };
+		BE73F66A1F67BDA0004246F6 /* FilterUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BE73F6661F67B2A4004246F6 /* FilterUtil.m */; };
+		BED729D91F666CE600EA33CB /* MarqueeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BED729D81F666CE600EA33CB /* MarqueeLabel.m */; };
+		BED729DB1F66907900EA33CB /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = BED729DA1F66907900EA33CB /* settings.png */; };
+		BED729DD1F66921800EA33CB /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = BED729DC1F66921800EA33CB /* cross.png */; };
+		BED729DF1F66934300EA33CB /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = BED729DE1F66934300EA33CB /* share.png */; };
+		BED729E11F669C9B00EA33CB /* kl.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BED729E01F669C9B00EA33CB /* kl.jpeg */; };
+		BEDE79B01F5E706A00B9CDFD /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDE79AF1F5E706A00B9CDFD /* HomeViewController.m */; };
+		BEEA92C21F61609100980CF5 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEEA92C11F61609100980CF5 /* ImageIO.framework */; };
+		BEEC80EF1F5E6DC1003DA5CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEC80EE1F5E6DC1003DA5CB /* AppDelegate.m */; };
+		BEEC80F51F5E6DC1003DA5CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEC80F31F5E6DC1003DA5CB /* Main.storyboard */; };
+		BEEC80F71F5E6DC1003DA5CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEEC80F61F5E6DC1003DA5CB /* Assets.xcassets */; };
+		BEEC80FA1F5E6DC1003DA5CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEC80F81F5E6DC1003DA5CB /* LaunchScreen.storyboard */; };
+		BEEC80FD1F5E6DC1003DA5CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEC80FC1F5E6DC1003DA5CB /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B5CF6D701ED2C33C2F530EF /* libPods-PerfectPix.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PerfectPix.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AADEE037CFC5314E24D58964 /* Pods-PerfectPix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectPix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PerfectPix/Pods-PerfectPix.debug.xcconfig"; sourceTree = "<group>"; };
+		AB8E4A88F845F3E29BD1614E /* Pods-PerfectPix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectPix.release.xcconfig"; path = "Pods/Target Support Files/Pods-PerfectPix/Pods-PerfectPix.release.xcconfig"; sourceTree = "<group>"; };
+		BE12063E1F68FD770060B213 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		BE1206401F691C300060B213 /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
+		BE1206421F6932490060B213 /* lookup_amatorka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lookup_amatorka.png; sourceTree = "<group>"; };
+		BE1206431F6932490060B213 /* lookup_miss_etikate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lookup_miss_etikate.png; sourceTree = "<group>"; };
+		BE1206441F6932490060B213 /* lookup_soft_elegance_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lookup_soft_elegance_1.png; sourceTree = "<group>"; };
+		BE1206451F6932490060B213 /* lookup_soft_elegance_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lookup_soft_elegance_2.png; sourceTree = "<group>"; };
+		BE1206461F6932490060B213 /* lookup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lookup.png; sourceTree = "<group>"; };
+		BE246DE51F5E823C005D378B /* libGPUImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGPUImage.a; path = "Pods/../build/Debug-iphoneos/GPUImage/libGPUImage.a"; sourceTree = "<group>"; };
+		BE246DE61F5E823C005D378B /* libPods-PerfectPix.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-PerfectPix.a"; path = "Pods/../build/Debug-iphoneos/libPods-PerfectPix.a"; sourceTree = "<group>"; };
+		BE246DE71F5E823C005D378B /* libTGCameraViewController.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTGCameraViewController.a; path = "Pods/../build/Debug-iphoneos/TGCameraViewController/libTGCameraViewController.a"; sourceTree = "<group>"; };
+		BE2591331F6BDED1008DAD2F /* ruler_bg.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ruler_bg.gif; sourceTree = "<group>"; };
+		BE2591351F6BE90B008DAD2F /* BWSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWSegment.h; sourceTree = "<group>"; };
+		BE2591361F6BE90B008DAD2F /* BWSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWSegment.m; sourceTree = "<group>"; };
+		BE2591371F6BE90B008DAD2F /* BWSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWSegmentedControl.h; sourceTree = "<group>"; };
+		BE2591381F6BE90B008DAD2F /* BWSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWSegmentedControl.m; sourceTree = "<group>"; };
+		BE2DAB141F5EA6B1008C72FE /* Messi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Messi.jpg; sourceTree = "<group>"; };
+		BE73F6541F67A6E4004246F6 /* flash-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash-off.png"; sourceTree = "<group>"; };
+		BE73F6551F67A6E4004246F6 /* flash-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash-on.png"; sourceTree = "<group>"; };
+		BE73F6561F67A6E4004246F6 /* gallery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gallery.png; sourceTree = "<group>"; };
+		BE73F6571F67A6E4004246F6 /* shoot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoot.png; sourceTree = "<group>"; };
+		BE73F65E1F67AAE2004246F6 /* switch_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switch_camera.png; sourceTree = "<group>"; };
+		BE73F6651F67B2A4004246F6 /* FilterUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterUtil.h; sourceTree = "<group>"; };
+		BE73F6661F67B2A4004246F6 /* FilterUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterUtil.m; sourceTree = "<group>"; };
+		BED729D71F666CE600EA33CB /* MarqueeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarqueeLabel.h; sourceTree = "<group>"; };
+		BED729D81F666CE600EA33CB /* MarqueeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarqueeLabel.m; sourceTree = "<group>"; };
+		BED729DA1F66907900EA33CB /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		BED729DC1F66921800EA33CB /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		BED729DE1F66934300EA33CB /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		BED729E01F669C9B00EA33CB /* kl.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kl.jpeg; sourceTree = "<group>"; };
+		BEDE79AE1F5E706A00B9CDFD /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		BEDE79AF1F5E706A00B9CDFD /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		BEEA92C11F61609100980CF5 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		BEEC80EA1F5E6DC1003DA5CB /* PerfectPix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerfectPix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEEC80ED1F5E6DC1003DA5CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEEC80EE1F5E6DC1003DA5CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEEC80F41F5E6DC1003DA5CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEEC80F61F5E6DC1003DA5CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEEC80F91F5E6DC1003DA5CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEEC80FB1F5E6DC1003DA5CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEEC80FC1F5E6DC1003DA5CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEEC80E71F5E6DC1003DA5CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEEA92C21F61609100980CF5 /* ImageIO.framework in Frameworks */,
+				BE246DE81F5E823C005D378B /* libGPUImage.a in Frameworks */,
+				BE246DE91F5E823C005D378B /* libPods-PerfectPix.a in Frameworks */,
+				9EC977813C8BCA24F6B8B4EA /* libPods-PerfectPix.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30C08CBB4CDDD717B978A89A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AADEE037CFC5314E24D58964 /* Pods-PerfectPix.debug.xcconfig */,
+				AB8E4A88F845F3E29BD1614E /* Pods-PerfectPix.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE73F6681F67B6DF004246F6 /* filter_images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = filter_images;
+			sourceTree = "<group>";
+		};
+		BE73F6691F67B6EA004246F6 /* thirdparty */ = {
+			isa = PBXGroup;
+			children = (
+				BED729D71F666CE600EA33CB /* MarqueeLabel.h */,
+				BED729D81F666CE600EA33CB /* MarqueeLabel.m */,
+			);
+			name = thirdparty;
+			sourceTree = "<group>";
+		};
+		BED729D51F6667C100EA33CB /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BE2591331F6BDED1008DAD2F /* ruler_bg.gif */,
+				BE1206421F6932490060B213 /* lookup_amatorka.png */,
+				BE1206431F6932490060B213 /* lookup_miss_etikate.png */,
+				BE1206441F6932490060B213 /* lookup_soft_elegance_1.png */,
+				BE1206451F6932490060B213 /* lookup_soft_elegance_2.png */,
+				BE1206461F6932490060B213 /* lookup.png */,
+				BE1206401F691C300060B213 /* tick.png */,
+				BE12063E1F68FD770060B213 /* 7.jpg */,
+				BE73F65E1F67AAE2004246F6 /* switch_camera.png */,
+				BE73F6541F67A6E4004246F6 /* flash-off.png */,
+				BE73F6551F67A6E4004246F6 /* flash-on.png */,
+				BE73F6561F67A6E4004246F6 /* gallery.png */,
+				BE73F6571F67A6E4004246F6 /* shoot.png */,
+				BED729E01F669C9B00EA33CB /* kl.jpeg */,
+				BED729DE1F66934300EA33CB /* share.png */,
+				BED729DC1F66921800EA33CB /* cross.png */,
+				BED729DA1F66907900EA33CB /* settings.png */,
+				BE2DAB141F5EA6B1008C72FE /* Messi.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		BEEC80E11F5E6DC1003DA5CB = {
+			isa = PBXGroup;
+			children = (
+				BEEC80EC1F5E6DC1003DA5CB /* PerfectPix */,
+				BEEC80EB1F5E6DC1003DA5CB /* Products */,
+				30C08CBB4CDDD717B978A89A /* Pods */,
+				E0D536E3649EBDAA2421CA3E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BEEC80EB1F5E6DC1003DA5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEEC80EA1F5E6DC1003DA5CB /* PerfectPix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEEC80EC1F5E6DC1003DA5CB /* PerfectPix */ = {
+			isa = PBXGroup;
+			children = (
+				BE73F6691F67B6EA004246F6 /* thirdparty */,
+				BE73F6681F67B6DF004246F6 /* filter_images */,
+				BED729D51F6667C100EA33CB /* images */,
+				BE2591351F6BE90B008DAD2F /* BWSegment.h */,
+				BE2591361F6BE90B008DAD2F /* BWSegment.m */,
+				BE2591371F6BE90B008DAD2F /* BWSegmentedControl.h */,
+				BE2591381F6BE90B008DAD2F /* BWSegmentedControl.m */,
+				BE73F6651F67B2A4004246F6 /* FilterUtil.h */,
+				BE73F6661F67B2A4004246F6 /* FilterUtil.m */,
+				BEEC80ED1F5E6DC1003DA5CB /* AppDelegate.h */,
+				BEEC80EE1F5E6DC1003DA5CB /* AppDelegate.m */,
+				BEDE79AE1F5E706A00B9CDFD /* HomeViewController.h */,
+				BEDE79AF1F5E706A00B9CDFD /* HomeViewController.m */,
+				BEEC80F31F5E6DC1003DA5CB /* Main.storyboard */,
+				BEEC80F61F5E6DC1003DA5CB /* Assets.xcassets */,
+				BEEC80F81F5E6DC1003DA5CB /* LaunchScreen.storyboard */,
+				BEEC80FB1F5E6DC1003DA5CB /* Info.plist */,
+				BEEC80FC1F5E6DC1003DA5CB /* main.m */,
+			);
+			path = PerfectPix;
+			sourceTree = "<group>";
+		};
+		E0D536E3649EBDAA2421CA3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEEA92C11F61609100980CF5 /* ImageIO.framework */,
+				BE246DE51F5E823C005D378B /* libGPUImage.a */,
+				BE246DE61F5E823C005D378B /* libPods-PerfectPix.a */,
+				BE246DE71F5E823C005D378B /* libTGCameraViewController.a */,
+				2B5CF6D701ED2C33C2F530EF /* libPods-PerfectPix.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEEC80E91F5E6DC1003DA5CB /* PerfectPix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEEC81001F5E6DC1003DA5CB /* Build configuration list for PBXNativeTarget "PerfectPix" */;
+			buildPhases = (
+				21D0DABCEF17831C593220EB /* [CP] Check Pods Manifest.lock */,
+				BEEC80E61F5E6DC1003DA5CB /* Sources */,
+				BEEC80E71F5E6DC1003DA5CB /* Frameworks */,
+				BEEC80E81F5E6DC1003DA5CB /* Resources */,
+				9C53A6B15420F44CC70A692E /* [CP] Embed Pods Frameworks */,
+				AE6BFB6CD7A256AA6AA6CD53 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectPix;
+			productName = PerfectPix;
+			productReference = BEEC80EA1F5E6DC1003DA5CB /* PerfectPix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEEC80E21F5E6DC1003DA5CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Atif Imran";
+				TargetAttributes = {
+					BEEC80E91F5E6DC1003DA5CB = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = BEEC80E51F5E6DC1003DA5CB /* Build configuration list for PBXProject "PerfectPix" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEEC80E11F5E6DC1003DA5CB;
+			productRefGroup = BEEC80EB1F5E6DC1003DA5CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEEC80E91F5E6DC1003DA5CB /* PerfectPix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEEC80E81F5E6DC1003DA5CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED729E11F669C9B00EA33CB /* kl.jpeg in Resources */,
+				BED729DD1F66921800EA33CB /* cross.png in Resources */,
+				BED729DF1F66934300EA33CB /* share.png in Resources */,
+				BE1206491F6932490060B213 /* lookup_soft_elegance_1.png in Resources */,
+				BE12063F1F68FD770060B213 /* 7.jpg in Resources */,
+				BEEC80FA1F5E6DC1003DA5CB /* LaunchScreen.storyboard in Resources */,
+				BE73F65F1F67AAE2004246F6 /* switch_camera.png in Resources */,
+				BE12064B1F6932490060B213 /* lookup.png in Resources */,
+				BE12064A1F6932490060B213 /* lookup_soft_elegance_2.png in Resources */,
+				BE73F65A1F67A6E4004246F6 /* flash-on.png in Resources */,
+				BE73F65B1F67A6E4004246F6 /* gallery.png in Resources */,
+				BE2591341F6BDED1008DAD2F /* ruler_bg.gif in Resources */,
+				BE2DAB151F5EA6B1008C72FE /* Messi.jpg in Resources */,
+				BED729DB1F66907900EA33CB /* settings.png in Resources */,
+				BE1206481F6932490060B213 /* lookup_miss_etikate.png in Resources */,
+				BEEC80F71F5E6DC1003DA5CB /* Assets.xcassets in Resources */,
+				BE73F6591F67A6E4004246F6 /* flash-off.png in Resources */,
+				BE73F65C1F67A6E4004246F6 /* shoot.png in Resources */,
+				BEEC80F51F5E6DC1003DA5CB /* Main.storyboard in Resources */,
+				BE1206411F691C300060B213 /* tick.png in Resources */,
+				BE1206471F6932490060B213 /* lookup_amatorka.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21D0DABCEF17831C593220EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PerfectPix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C53A6B15420F44CC70A692E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PerfectPix/Pods-PerfectPix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE6BFB6CD7A256AA6AA6CD53 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PerfectPix/Pods-PerfectPix-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PerfectPix/Pods-PerfectPix-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEEC80E61F5E6DC1003DA5CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE73F66A1F67BDA0004246F6 /* FilterUtil.m in Sources */,
+				BE25913A1F6BE90B008DAD2F /* BWSegmentedControl.m in Sources */,
+				BEEC80FD1F5E6DC1003DA5CB /* main.m in Sources */,
+				BED729D91F666CE600EA33CB /* MarqueeLabel.m in Sources */,
+				BEEC80EF1F5E6DC1003DA5CB /* AppDelegate.m in Sources */,
+				BE2591391F6BE90B008DAD2F /* BWSegment.m in Sources */,
+				BEDE79B01F5E706A00B9CDFD /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEEC80F31F5E6DC1003DA5CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEEC80F41F5E6DC1003DA5CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEEC80F81F5E6DC1003DA5CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEEC80F91F5E6DC1003DA5CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEEC80FE1F5E6DC1003DA5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = CS6JVEV4V2;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BEEC80FF1F5E6DC1003DA5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = CS6JVEV4V2;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEEC81011F5E6DC1003DA5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AADEE037CFC5314E24D58964 /* Pods-PerfectPix.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = CS6JVEV4V2;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/GPUImage\"/**",
+					"\"${PODS_ROOT}/Headers/Public/TGCameraViewController\"",
+				);
+				INFOPLIST_FILE = PerfectPix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/GPUImage",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/TGCameraViewController",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aim.PerfectPix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "21ccc302-31fd-44c3-894f-bc7dd64c3dd4";
+				PROVISIONING_PROFILE_SPECIFIER = PerfectPix_Dev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEEC81021F5E6DC1003DA5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB8E4A88F845F3E29BD1614E /* Pods-PerfectPix.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = CS6JVEV4V2;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/GPUImage\"/**",
+					"\"${PODS_ROOT}/Headers/Public/TGCameraViewController\"",
+				);
+				INFOPLIST_FILE = PerfectPix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/GPUImage",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/TGCameraViewController",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aim.PerfectPix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "21ccc302-31fd-44c3-894f-bc7dd64c3dd4";
+				PROVISIONING_PROFILE_SPECIFIER = PerfectPix_Dev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEEC80E51F5E6DC1003DA5CB /* Build configuration list for PBXProject "PerfectPix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEEC80FE1F5E6DC1003DA5CB /* Debug */,
+				BEEC80FF1F5E6DC1003DA5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEEC81001F5E6DC1003DA5CB /* Build configuration list for PBXNativeTarget "PerfectPix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEEC81011F5E6DC1003DA5CB /* Debug */,
+				BEEC81021F5E6DC1003DA5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEEC80E21F5E6DC1003DA5CB /* Project object */;
+}
